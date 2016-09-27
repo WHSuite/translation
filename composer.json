@@ -1,0 +1,20 @@
+{
+    "name": "whsuite/translation",
+    "description": "Symfony Translation loader for WHSuite. Note: This package will not work outside of the WHSuite framework.",
+    "require": {
+        "symfony/translation": "2.4.*@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WHSuite",
+            "email": "info@whsuite.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Whsuite\\Translation" : "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
